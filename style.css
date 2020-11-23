@@ -1,0 +1,326 @@
+/*PAGE CONFIG*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  border: 1px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #eeeeee;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #a3a3a3;
+}
+@font-face {
+  font-family: futura;
+  src: url(./fonts/FuturaStdLight.woff);
+}
+@font-face {
+  font-family: futuraBold;
+  src: url(./fonts/FuturaStdBold.woff);
+}
+
+/*HEADER*/
+header {
+  background: linear-gradient(to left, #bb3e63, #f79c81);
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  height: auto;
+  padding: 10px;
+}
+.links,
+a {
+  transition: 0.3s ease;
+  letter-spacing: 1px;
+  font-family: futura;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  color: #ffffffb3;
+  margin: 10px;
+}
+.links,
+a:hover {
+  color: white;
+}
+.btn {
+  color: #ffffffb3;
+  border: 1px solid #fff;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 11px;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.3s ease;
+  border-radius: 300px;
+}
+.btn:hover {
+  color: white;
+}
+.logo img {
+  color: white;
+  cursor: pointer;
+  width: 50px;
+  height: auto;
+}
+@media screen and (max-width: 700px) {
+  .links,
+  .logo img {
+    display: none;
+  }
+}
+
+/*HERO*/
+.hero-container {
+  width: 100%;
+  background: linear-gradient(to left, #bb3e63, #f79c81);
+  min-height: 600px;
+}
+.hero-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.hero-image {
+  margin-top: 10px;
+  width: 500px;
+  height: auto;
+}
+.hero-logo {
+  width: 65px;
+  height: 50px;
+}
+.hero-text p {
+  font-family: futuraBold;
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #fff;
+  font-weight: 200;
+}
+.hero-text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.hero-text h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: futura;
+  font-weight: 600;
+  color: #ffffffb3;
+  padding: 10px;
+  text-align: center;
+}
+.hero-text span {
+  color: #fff;
+}
+
+.hero-btn {
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-family: futura;
+  margin-top: 10px;
+  padding: 6px 30px;
+  font-size: 16px;
+  border: 1px solid white;
+  background: transparent;
+  color: #ffffff;
+  border-radius: 100px;
+  transition: 0.3s ease;
+}
+.hero-btn:hover {
+  color: #ffffffb3;
+}
+@media screen and (max-width: 700px) {
+  .hero-image {
+    display: none;
+  }
+  .hero-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    height: 100%;
+  }
+}
+
+/*FEATURES*/
+.features-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #eeeeee;
+  width: 100%;
+  min-height: 600px;
+}
+.features-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.features-image {
+  margin-top: 10px;
+  width: 500px;
+  height: auto;
+}
+.features-logo {
+  width: 65px;
+  height: 50px;
+}
+.features-text p {
+  font-family: futuraBold;
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #e62e3a;
+  font-weight: 200;
+}
+.features-text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.features-text h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: futura;
+  font-weight: 600;
+  color: rgb(26, 25, 25);
+  padding: 10px;
+  text-align: center;
+}
+.features-text span {
+  color: #ec1624;
+}
+
+.features-btn {
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-family: futura;
+  margin-top: 10px;
+  padding: 6px 30px;
+  font-size: 16px;
+  border: none;
+  background: #e62e3a;
+  color: #ffffff;
+  border-radius: 100px;
+  transition: 0.3s ease;
+}
+.features-btn:hover {
+  color: #ffffffb3;
+}
+
+@media screen and (max-width: 700px) {
+  .features-image {
+    display: none;
+  }
+  .features-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    height: 100%;
+  }
+}
+
+/**CONTACT SECTION*/
+.contact-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #f6f6f6;
+  width: 100%;
+  height: auto;
+}
+.formulario {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.contact-text p {
+  font-family: futuraBold;
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #e62e3a;
+  font-weight: 200;
+}
+.contact-text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact-text h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: futura;
+  font-weight: 600;
+  color: rgb(26, 25, 25);
+  padding: 10px;
+  text-align: center;
+}
+.contact-text span {
+  color: #ec1624;
+}
+
+/*FORM*/
+textarea {
+  width: 360px;
+  height: 100px;
+  resize: none;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+input {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 300px;
+  border: none;
+  background-color: #eeeeee;
+  padding: 10px;
+}
+@media screen and (max-width: 450px) {
+  input,
+  textarea {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .contact-text p {
+    text-align: center;
+  }
+}
+/*FOOTER*/
+footer {
+  background: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-family: futuraBold;
+  color: #b6b5b5;
+  padding: 10px;
+}
+footer span {
+  color: #a3a3a3;
+}
