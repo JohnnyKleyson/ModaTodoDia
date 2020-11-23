@@ -3,7 +3,7 @@
 
 <p align="center">Suas compras com um só clique!</p>
 
-![image](https://user-images.githubusercontent.com/72710750/100021985-28b7bc00-2dc1-11eb-9d31-aa98676d1695.png)
+![image](https://user-images.githubusercontent.com/72710750/100023607-083d3100-2dc4-11eb-9bb4-e1372333e56a.png)
 
 <p align="center">ACESSE AQUI: <br>
 https://johnnykleyson.github.io/ModaTodoDia/<p>
